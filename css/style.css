@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+}
+body{
+    margin: 0;
+    height: 100vh;
+    background: url(/assets/image/vecteezy_a-winding-racetrack-under-a-vibrant-sunset-sky-in-a-serene_51128264.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#score-box{
+    width: 150px;
+    height: 70px;
+    background-color: white;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.road{
+    background-color: black;
+    border-left: 8px #e0e0e0 dashed;
+    border-right: 8px #e0e0e0 dashed;
+    position: absolute;
+    margin: auto;
+    width: 25%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+}
+
+.line{
+    background-color: #bdbdbd;
+    margin: auto;
+    width: 6px;
+    height: 150px;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+#line1{
+    top: -150px;
+}
+
+#line2{
+    top: 100px;
+}
+
+#line3{
+    top: 550px;
+}
