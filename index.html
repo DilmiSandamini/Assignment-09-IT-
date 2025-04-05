@@ -12,7 +12,8 @@
     </div>
 
     <div id="btn-play">
-
+        <img src="/assets/image/play-btn.png" alt="play-button" style="width: 10%" id="play">
+        <audio src="/assets/audio/crash.mp3" id="play-sound"></audio>
     </div>
 
     <div class="road">
@@ -25,5 +26,18 @@
         <img src="/assets/image/red-car.png" alt="red-car" class="car" id="car3">
         <img src="/assets/image/green-car.png" alt="green-car" id="car">
     </div>
+
+    <div id="game-over-box">
+        <div style="text-align: center;">
+            <img src="/assets/image/istockphoto-1467380584-612x612.jpg" alt="Game Over" style="width: 20%">
+            <h2 class="score-box">Your Score : <span id="final-score"></span></h2>
+            <h2 class="score-box">High Score : <span id="High-score"></span></h2>
+            <img id="btn-replay" src="/assets/image/replay-btn-removebg-preview.png" alt="Play Again" style="width: 10%">
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="/js/index-controller.js"></script>
+
 </body>
 </html>
