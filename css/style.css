@@ -35,7 +35,7 @@ body{
     overflow: hidden;
 }
 
-.line{
+/* .line{
     background-color: #bdbdbd;
     margin: auto;
     width: 6px;
@@ -56,17 +56,17 @@ body{
 
 #line3{
     top: 450px;
-}
+} */
 
 .car{
     position: absolute;
     transform: rotateZ(180deg);
-    width: 80px;
+    width: 30px;
 }
 
 #car{
     position: absolute;
-    width: 80px;
+    width: 30px;
     bottom: 5%;
     right: 50px;
 }
